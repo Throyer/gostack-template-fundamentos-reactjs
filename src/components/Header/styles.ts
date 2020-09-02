@@ -15,6 +15,12 @@ export const Container = styled.div<ContainerProps>`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
 
     nav {
       a {
